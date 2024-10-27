@@ -82,11 +82,11 @@ In these files, I used the absolute paths for all path parameters. You can adapt
 
 ### Training Stratergies
 
-<img src="Images/Training.png" width="30%"/>
+<img src="Images/Training.png" width="60%"/>
 
 ### Inference Stratergies
 
-<img src="Images/Inference.png" width="30%"/>
+<img src="Images/Inference.png" width="60%"/>
 
 ### First Training Phase - Data Preprocessing
 
@@ -131,15 +131,15 @@ This script returns:
 - Visually, the results are divided into three groups
     - Good generation:
 
-    <img src="Images/Good_results.png" width="30%"/>
+    <img src="Images/Good_results.png" width="60%"/>
 
     - Generation with incomplete information:
 
-    <img src="Images/Undetailed_results.png" width="30%"/>
+    <img src="Images/Undetailed_results.png" width="60%"/>
 
     - Bad generation:
 
-    <img src="Images/Bad_results.png" width="30%"/>
+    <img src="Images/Bad_results.png" width="60%"/>
 
 ## Citation
 
