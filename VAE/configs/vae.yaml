@@ -1,0 +1,38 @@
+model_params:
+  name: 'VanillaVAE'
+  in_channels: 3
+  latent_dim: 256
+  patch_size: 256
+
+
+data_params:
+  data_path: "Data/"
+  inference_data_path: "/home/toan_le/Masterarbeit/Dataset/train_B+/home/toan_le/Masterarbeit/Dataset/masks_trainset"
+  test_data_path: "/home/toan_le/Masterarbeit/Dataset/test_B+/home/toan_le/Masterarbeit/Dataset/masks_testset"
+  train_batch_size: 3
+  val_batch_size: 3
+  patch_size: 256
+  num_workers: 10
+  validation_split: 0.05
+
+
+exp_params:
+  LR: 0.0002
+  weight_decay: 0.0
+  scheduler_gamma: 0.95
+  kld_weight: 0.0000007
+  manual_seed: 1265
+  save_dir: "logs/"
+
+
+trainer_params:
+  gpus: [5]
+  max_epochs: 500
+
+
+logging_params:
+  save_dir: "logs/"
+  name: "VanillaVAE"
+
+
+
