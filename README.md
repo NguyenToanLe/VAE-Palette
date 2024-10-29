@@ -25,7 +25,6 @@ This repo contains the code for the master thesis **Optimizing X-Ray Imaging: Le
     - [Testing](#testing---inference)
     - [Evaluation](#evaluation)
 6. [Results](#results)
-7. [Citation](#citation)
 
 ## Abstract
 
@@ -47,7 +46,7 @@ X-ray imaging provides surgeons with a static roadmap for anatomical reference a
 ### LPIPS Score
 
 - This score is a perceptual metric based on deep learning. It calculates the perceptual similarity between images using features extracted
-from a pre-trained deep neural network, in this case, the encoder part of Models Genesis ([Zhou et al., 2021](#citation)). 
+from a pre-trained deep neural network, in this case, the encoder part of Models Genesis. 
 - LPIPS score has the advantage of capturing the perceptual differences that align more closely with human visual perception.
 - The LPIPS metric passes the original and generated images through a deep neural network to extract features at different layers. Then, it is computed as the L1 distance between the feature representations of the image pairs. 
 - A lower LPIPS score indicates that the two images are more perceptually similar.
@@ -140,25 +139,6 @@ This script returns:
     - Bad generation:
 
     <img src="Images/Bad_results.png" width="60%"/>
-
-## Citation
-
-If you found VAE-Palette useful in your research, please consider starring ⭐ me on GitHub and citing 📚 us in your research!
-
-```bibtex
-@article{Zhou_2021,
-    title={Models Genesis},
-    volume={67},
-    ISSN={1361-8415},
-    url={http://dx.doi.org/10.1016/j.media.2020.101840},
-    DOI={10.1016/j.media.2020.101840},
-    journal={Medical Image Analysis},
-    publisher={Elsevier BV},
-    author={Zhou, Zongwei and Sodha, Vatsal and Pang, Jiaxuan and Gotway, Michael B. and Liang, Jianming},
-    year={2021},
-    month=jan, pages={101840} 
-    }
-```
 
 ## Acknowledgement
 
